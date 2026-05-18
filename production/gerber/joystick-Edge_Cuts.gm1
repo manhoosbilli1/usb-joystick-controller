@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.6*%
+%TF.CreationDate,2025-11-13T20:17:55+05:00*%
+%TF.ProjectId,joystick,6a6f7973-7469-4636-9b2e-6b696361645f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.6) date 2025-11-13 20:17:55*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X120243600Y-78181200D02*
+X155498800Y-78181200D01*
+X155498800Y-104333600D01*
+X120243600Y-104333600D01*
+X120243600Y-78181200D01*
+M02*

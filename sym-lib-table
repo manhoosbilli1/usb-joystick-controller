@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "joystick")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.kicad_sym")(options "")(descr ""))
+  (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.kicad_sym")(options "")(descr ""))
+  (lib (name "ProPrj_Sliding_sw_smd_spdt_3pin_6mm_2025-11-18")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/ProPrj_Sliding_sw_smd_spdt_3pin_6mm_2025-11-18.epro")(options "")(descr ""))
+  (lib (name "SSSS810701")(type "KiCad")(uri "${KIPRJMOD}/LIB_SSSS810701/SSSS810701/KiCad/SSSS810701.kicad_sym")(options "")(descr ""))
+)

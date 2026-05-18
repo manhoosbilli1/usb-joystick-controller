@@ -1,0 +1,7 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"R2,R1,R3";"R_0402";3;"10kΩ";;;
+2;"C1,C2";"C_0402";2;"100nF";;;
+3;"SW1";"SW-TH_RKJXV1220001";1;"RKJXV1220001";;;
+4;"J1";"IDC-Header_2x03_P2.54mm_Vertical";1;"AVR-ISP-6";;;
+5;"R5,R4";"R_0805";2;"0Ω";;;
+6;"U1";"SOIC-14_3.9x8.7mm_P1.27mm";1;"ATtiny24A-SS";;;

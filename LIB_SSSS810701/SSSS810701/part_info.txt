@@ -1,0 +1,9 @@
+Manufacturer=ALPS Electric
+PartNumber=SSSS810701
+PartCategory=Switch
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2016-10-13 14:27:32
+Downloaded=2025-11-19 08:29:12
+3D=Y

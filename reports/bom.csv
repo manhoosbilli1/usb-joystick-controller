@@ -1,0 +1,6 @@
+"Refs","Value","Footprint","Qty","Description","Mfr","MPN","LCSC"
+"C2","100nF","PCM_JLCPCB:C_0805","1","100V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS","Samsung Electro-Mechanics","","C28233"
+"R1","10kΩ","PCM_JLCPCB:R_0805","1","125mW Thick Film Resistors 150V ±100ppm/°C ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS","UNI-ROYAL(Uniroyal Elec)","","C17414"
+"S1","SSSS810701","SSSS810701","1","Slide Switches Horiz 1 Pole 2 Pos 1.1 Knob 1.5 Travel","","",""
+"SW1","RKJXV1220001","joystick:SW-TH_RKJXV1220001","1","","","",""
+"U1","ATtiny24A-SS","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","1","20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, SOIC-14","","",""

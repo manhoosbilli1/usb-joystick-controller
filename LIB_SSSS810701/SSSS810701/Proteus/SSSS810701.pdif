@@ -1,0 +1,139 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SSSS810701"
+   (description "Slide Switches Horiz 1 Pole 2 Pos 1.1 Knob 1.5 Travel")
+   (family "SWI")
+   (package "SSSS810701")
+   (attribute "Datasheet Link" "http://www.alps.com/prod/info/E/HTML/Switch/Slide/SSSS8/SSSS810701.html")
+   (attribute "Manufacturer_Name" "ALPS Electric")
+   (attribute "Manufacturer_Part_Number" "SSSS810701")
+   (attribute "Mouser Part Number" "688-SSSS810701")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SSSS810701?qs=uROlC5LSwk1OL7pdbC2yLg%3D%3D")
+   (attribute "Arrow Part Number" "SSSS810701")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/ssss810701/alps-electric")
+   (gate
+    (symbol "SSSS810701")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "SSSS810701"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SSSS810701"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -4.1 -0.45)
+      (pt 2.6 -0.45)
+      (pt 2.6 -3.05)
+      (pt -4.1 -3.05)
+      (pt -4.1 -0.45))))
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -0.65 -3.05)
+      (pt -0.65 -4.55)
+      (pt 0.65 -4.55)
+      (pt 0.65 -3.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt 2.6 -0.45)
+      (pt 2.6 -3.05)
+      (pt -4.1 -3.05)
+      (pt -4.1 -0.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -0.65 -3.05)
+      (pt -0.65 -4.55)
+      (pt 0.65 -4.55)
+      (pt 0.65 -3.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -2.45367 -0.45)
+      (pt -0.60467 -0.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt -3.82433 0.88867) (pt -3.71633 0.88867)
+     )
+    )
+   )
+   (leg 1 (pt -3 0) (padstack 0))
+   (leg 2 (pt 0 0) (padstack 0))
+   (leg 3 (pt 1.5 0) (padstack 0))
+   (leg 4 (pt -2.25 -1.75) (padstack 4))
+   (leg 5 (pt 0.75 -1.75) (padstack 5))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.7 1.5 0 0 90))
+   )
+   (padstack 4
+    (hole 0.9)
+    (plated false)
+    (pad (layer TCOP) (round 0.9))
+    (pad (layer INNER) (round 0.9))
+    (pad (layer BCOP) (round 0.9))
+   )
+   (padstack 5
+    (hole 0.9)
+    (plated false)
+    (pad (layer TCOP) (round 0.9))
+    (pad (layer INNER) (round 0.9))
+    (pad (layer BCOP) (round 0.9))
+   )
+   (model "SSSS810701.stp"
+    (euler 90 0 0)
+    (offset -0.75 -1.75 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SSSS810701'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "ALPS Electric", "SSSS810701" (!) = "", "SSSS810701", "Other", "688-SSSS810701", "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SSSS810701?qs=uROlC5LSwk1OL7pdbC2yLg%3D%3D", "SSSS810701", "https://www.arrow.com/en/products/ssss810701/alps-electric", "Slide Switches Horiz 1 Pole 2 Pos 1.1 Knob 1.5 Travel", "http://www.alps.com/prod/info/E/HTML/Switch/Slide/SSSS8/SSSS810701.html"
+END_PART
+
+END.

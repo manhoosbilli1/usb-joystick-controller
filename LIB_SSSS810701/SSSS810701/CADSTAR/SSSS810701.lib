@@ -1,0 +1,18 @@
+.SSSS810701 :1 ;Slide Switches Horiz 1 Pole 2 Pos 1.1 Knob 1.5 Travel
+SSSS810701
+*STM S
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 5
+*DFN SSSS810701
+~!Manufacturer_Name (ALPS Electric)
+~!Manufacturer_Part_Number (SSSS810701)
+~!Mouser Part Number (688-SSSS810701)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SSSS810701?qs=uROlC5LSwk1OL7pdbC2yLg%3D%3D)
+~!Arrow Part Number (SSSS810701)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ssss810701/alps-electric)
+~!Link Datasheet (http://www.alps.com/prod/info/E/HTML/Switch/Slide/SSSS8/SSSS810701.html)
+~!Height (-)
+~!3D_Model (SSSS810701)
+SSSS810701
+1.1!U 2.1!U 3.1!U 
