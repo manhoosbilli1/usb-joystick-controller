@@ -1,29 +1,53 @@
 # joystick
 
-Compact USB joystick controller
+Compact ATtiny24A-based USB joystick controller
 
 ## At a Glance
 
 - **Status**: Partial / WIP
-- **Board size**: (unknown)
+- **Board size**: 33 x 26.5 mm
 - **Layers**: 2
-- **Components**: ?
+- **Components**: 9
 - **Key ICs**:
   - U1: ATtiny24A-SS
 
-## Renders
+## Schematic
+
+![Schematic](reports/schematic.png)
+
+Full PDF: [reports/schematic.pdf](reports/schematic.pdf)
+
+## Component Roles
+
+- **ATtiny24A-SS** (U1) - 8-bit AVR MCU; runs V-USB-style soft USB or HID-over-UART
+- **RKJXV1220001** (SW1) - Alps thumbstick / encoder (rotary + push button)
+- **SSSS810701** (S1) - small slide switch (mode / power)
+
+## PCB
 
 ![3D top](reports/board-3d.png)
 
 ![3D bottom](reports/board-3d-back.png)
 
-**PCB top**
+**Top copper**
 
 ![PCB top](reports/pcb-top.svg)
 
-**PCB bottom**
+**Bottom copper**
 
 ![PCB bottom](reports/pcb-bottom.svg)
+
+## Bill of Materials
+
+| Refs | Value | Footprint | Qty | MPN | LCSC |
+|------|-------|-----------|----:|-----|------|
+| C2 | 100nF | PCM_JLCPCB:C_0805 | 1 |  | [C28233](https://www.lcsc.com/product-detail/_C28233.html) |
+| R1 | 10kΩ | PCM_JLCPCB:R_0805 | 1 |  | [C17414](https://www.lcsc.com/product-detail/_C17414.html) |
+| S1 | SSSS810701 | SSSS810701 | 1 |  |  |
+| SW1 | RKJXV1220001 | joystick:SW-TH_RKJXV1220001 | 1 |  |  |
+| U1 | ATtiny24A-SS | Package_SO:SOIC-14_3.9x8.7mm_P1.27mm | 1 |  |  |
+
+_3 of 5 line items don't have an LCSC code in the schematic - search [LCSC](https://www.lcsc.com/) or [JLC parts search](https://jlcsearch.tscircuit.com/) by MPN or footprint when sourcing._
 
 ## Files
 
